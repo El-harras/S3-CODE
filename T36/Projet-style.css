@@ -2,21 +2,26 @@ body {
     padding: 10px 40px 10px 40px;
 }
 
-header {
-    display: flex;
-    padding-bottom: 20px;
+a {
+    text-decoration: none;
 }
+
+header {
+    padding-bottom: 5%;
+}
+
+/*logo*/
 
 .logo-page {
     display: flex;
 }
 
 .logo-page img {
-    display: flex;
     width: 44px;
     height: 44px;
-    border: 2px solid white;
 }
+
+/*Organisateur*/
 
 .resume_information {
     display: flex;
@@ -39,7 +44,8 @@ header {
 .image_projet img {
     width: 60%;
     height: 70%;
-    padding-left: 40%;
+    float: left;
+    margin-left: 40%;
 }
 
 .informations {
@@ -51,7 +57,7 @@ header {
 .info p {
     margin-left: 5px;
     font-size: 11px;
-    white-space: nowrap;
+    width: max-content;
 }
 
 .info img {
@@ -76,15 +82,18 @@ header {
     text-align: center;
 }
 
+/*Présentation*/
+
 .Presentation_proget {
     display: flex;
     gap: 20px;
+    margin-top: 2%;
 }
 
 .titre_Presentation {
     display: flex;
+    align-items: center;
     gap: 5px;
-    text-align: center;
 }
 
 .titre_Presentation img {
@@ -102,10 +111,12 @@ header {
     padding-right: 15%;
 }
 
+/*Objectifs*/
+
 .titre_Objectifs {
     display: flex;
+    align-items: center;
     gap: 5px;
-    text-align: center;
 }
 
 .titre_Objectifs img {
@@ -117,7 +128,8 @@ header {
 .informations_Objectifs {
     display: flex;
     gap: 15px;
-
+    margin-left: 10px;
+    padding-right: 10px;
 }
 
 .Objectifs-define img {
@@ -126,18 +138,25 @@ header {
     border-radius: 20px;
 }
 
+.Objectifs-define{
+    border: 2px solid green;
+    border-radius: 20px;
+    text-align: center;
+}
+
 .text {
     font-size: 12px;
 }
 
 .Objectifs {
-    margin-top: 15px;
+    margin-top: 5%;
     padding-bottom: 20px;
-    background-color: #daf5f4;
+    background-color: #e9fefe;
     border-radius: 20px;
-
 }
 
+
+/*Technologies*/
 
 .Technologies {
     background-color: #dafbf8;
@@ -147,7 +166,8 @@ header {
 }
 
 .title_Technologies {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     gap: 10px;
     padding-bottom: 20px;
 }
@@ -168,31 +188,31 @@ header {
 
 .HTML {
     background-color: white;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     border-radius: 20px;
+    width: 15%;
 }
 
 .CSS {
     background-color: white;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     border-radius: 20px;
-    padding-right: 30px;
+    width: 15%;
 }
+
+/*Fonctionnalités*/
 
 .fonctionnalite {
     border: 2px;
     border-style: ridge;
-
+    border-radius: 20px;
+    width: 50%;
 }
 
 .titre_fonctionnalite {
     display: flex;
-    text-align: center;
-    margin-top: 40px;
+    align-items: center;
+
 }
 
 .titre_fonctionnalite img {
@@ -220,24 +240,19 @@ header {
     height: 20px;
 }
 
-.fonctionnalite {
-    border-radius: 20px;
-    width: 50%;
-}
-
 .princip p {
     margin: 0;
 }
 
-.features-grid {
-    padding-bottom: 20px;
+.features-grid{
+    padding-bottom: 10px;
 }
 
+/*LifeFlow*/
 
 .synthese {
     background-image: url(images/background.png);
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -250,7 +265,6 @@ header {
     color: #4b6584;
     font-size: 18px;
     line-height: 1.6;
-    margin: 0;
     text-align: left;
 }
 
