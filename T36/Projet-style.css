@@ -42,8 +42,8 @@ header {
 
 
 .image_projet img {
-    width: 60%;
-    height: 70%;
+    width: 70%;
+    height: 80%;
     float: left;
     margin-left: 40%;
 }
@@ -146,6 +146,8 @@ header {
 
 .text {
     font-size: 12px;
+    text-align: left;
+    margin-left: 8px;
 }
 
 .Objectifs {
@@ -246,6 +248,7 @@ header {
 
 .features-grid{
     padding-bottom: 10px;
+    margin-left: 20px;
 }
 
 /*LifeFlow*/
@@ -269,7 +272,7 @@ header {
 }
 
 
-section {
+main {
     display: flex;
     gap: 5%;
     margin-top: 30px;
