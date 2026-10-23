@@ -1,0 +1,227 @@
+body{
+    margin: 10px 20px 20px 20px;
+    background-color: #e2fffd;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*LOGO and header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+
+header p{
+    color: green;
+    background: #e2ffe4;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+/*section*/
+
+section{
+    text-align: center;
+}
+
+.lines{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.line1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.line2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Budget {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  gap: 15px;
+  background-color: #ccfbcc; 
+  border-radius: 50px; 
+  padding: 12px 20px;
+}
+
+.cash {
+  font-size: 24px;
+  color: green;
+  background-color: #e3fbea;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+
+.info h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #1c2b36;
+  font-weight: bold;
+}
+
+.info p {
+  margin: 4px 0 0 0;
+  font-size: 13px;
+  color: #7a869a;
+}
+
+
+.toggle-img {
+  width: 45px;
+  height: auto;
+}
+
+
+.Maison {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  gap: 15px;
+  background-color: #fbfbcc; 
+  border-radius: 50px; 
+  padding: 12px 20px;
+}
+
+.home {
+  font-size: 24px;
+  color: rgb(247, 231, 7);
+  background-color: #fbf9e3;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+
+.info h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #1c2b36;
+  font-weight: bold;
+}
+
+.info p {
+  margin: 4px 0 0 0;
+  font-size: 13px;
+  color: #7a869a;
+}
+
+
+.toggle-img {
+  width: 45px;
+  height: auto;
+}
+
+.Véhicule {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  gap: 15px;
+  background-color: white; 
+  border-radius: 50px; 
+  padding: 12px 20px;
+}
+
+.car {
+  font-size: 24px;
+  color: rgb(7, 47, 247);
+  background-color: #e3e8fb;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+
+.info h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #1c2b36;
+  font-weight: bold;
+}
+
+.info p {
+  margin: 4px 0 0 0;
+  font-size: 13px;
+  color: #7a869a;
+}
+
+
+.toggle-img {
+  width: 45px;
+  height: auto;
+}
+
+
+.Santé {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  gap: 15px;
+  background-color: #fdf0f0; 
+  border-radius: 50px; 
+  padding: 12px 20px;
+}
+
+.fitness {
+  font-size: 24px;
+  color: #b3261e;
+  background-color: #fbe3e3;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+
+.sante-info h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #1c2b36;
+  font-weight: bold;
+}
+
+.sante-info p {
+  margin: 4px 0 0 0;
+  font-size: 13px;
+  color: #7a869a;
+}
+
+
+.toggle-img {
+  width: 45px;
+  height: auto;
+}
+
+
+
+.txt{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+section a{
+    background :#7cb07c ;
+    padding: 8px;
+    border-radius: 20px;
+    color: white;
+}

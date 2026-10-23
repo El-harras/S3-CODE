@@ -102,7 +102,7 @@ section{
 }
 
 .Budget{
-    background:rgb(204, 251, 204) ;
+    background:#ccfbcc ;
     border-radius: 20px;
     padding: 10px;
     width: 15%;
@@ -118,7 +118,7 @@ section{
 }
 
 .Maison{
-    background:rgb(251, 251, 204) ;
+    background:#fbfbcc ;
     border-radius: 20px;
     padding: 10px;
     width: 15%;
@@ -150,7 +150,7 @@ section{
 }
 
 .Santé{
-    background:rgb(251, 204, 204) ;
+    background:#fbcccc ;
     border-radius: 20px;
     padding: 10px;
     width: 15%;
