@@ -1,0 +1,221 @@
+body{
+    margin: 10px 20px 20px 20px;
+    background-color: #e2fffd;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*LOGO and header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+
+.connecter{
+    border: 1px solid black;
+    background: white;
+    border-radius: 40px;
+    text-align: center;
+    color: black;
+    padding: 7px;
+}
+
+.creer{
+    border: 1px solid green;
+    background: #577d57;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    padding: 7px;
+}
+
+/*section*/
+
+section{
+    margin-top: 5%;
+    display: flex;
+    gap: 15px;
+}
+
+.resume{
+    width: 50%;
+}
+
+.example{
+    width: 50%;
+}
+
+.Soutien{
+    display: inline;
+    padding: 4px;
+    color: #577d57;
+    background: #bbffcb;
+    border-radius: 30px;
+}
+
+.propietes{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.propietes img{
+    width: 20px;
+    height: 20px;
+}
+
+.propietes p{
+    font-size: 12px;
+}
+.propietes p ion-icon {
+    font-size: 10px;
+    color: rgb(16, 183, 74);
+}
+
+.example img{
+    width: 100%;
+    height: 100%;
+}
+
+/*main*/
+
+.cinq{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Budget{
+    background:rgb(204, 251, 204) ;
+    border-radius: 20px;
+    padding: 10px;
+    width: 15%;
+    height: 100%;
+}
+
+.cash{
+    color: green;
+}
+
+.Budget p{
+    font-size: 12px;
+}
+
+.Maison{
+    background:rgb(251, 251, 204) ;
+    border-radius: 20px;
+    padding: 10px;
+    width: 15%;
+    height: 100%;
+}
+
+.home{
+    color: rgb(126, 128, 0);
+}
+
+.Maison p{
+    font-size: 12px;
+}
+
+.Véhicule{
+    background:rgb(204, 232, 251) ;
+    border-radius: 20px;
+    padding: 10px;
+    width: 15%;
+    height: 100%;
+}
+
+.car{
+    color: rgb(0, 55, 128);
+}
+
+.Véhicule p{
+    font-size: 12px;
+}
+
+.Santé{
+    background:rgb(251, 204, 204) ;
+    border-radius: 20px;
+    padding: 10px;
+    width: 15%;
+    height: 100%;
+}
+
+.fitness{
+    color: rgb(128, 0, 0);
+}
+
+.Santé p{
+    font-size: 12px;
+}
+
+.Tâches{
+    background:rgb(222, 204, 251) ;
+    border-radius: 20px;
+    padding: 10px;
+    width: 15%;
+    height: 100%;
+}
+
+.checkbox{
+    color: rgb(81, 0, 128);
+}
+
+.Tâches p{
+    font-size: 12px;
+}
+
+.pret{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.etapes{
+    background: white;
+    border: 2px solid silver;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #56a956;
+    border-radius: 20px;
+}
+
+footer h2{
+    color: white;
+    margin-left: 30px;
+}
+
+footer a{
+    border: 1px solid black;
+    background :#e2fffd;
+    border-radius: 40px;
+    text-align: center;
+    color :#577d57;
+    padding: 9px;
+    margin-right: 12px;
+}
