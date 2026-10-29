@@ -3,13 +3,16 @@
 }
 
 .carte-article {
-    margin-bottom: 24px;
+    background: rgb(179, 179, 202);
+    margin-bottom: 20px;
+    height: 250px;
+    padding: 10px;
 }
 
 .carte-contenu h3 {
-    margin: 0; 
+   margin: 0;
 }
 
 .carte-contenu p {
-    margin: 12px 0; 
+   margin: 12px 0;
 }
