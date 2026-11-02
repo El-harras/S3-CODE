@@ -80,11 +80,6 @@ header {
     display: flex;
 }
 
-.mon-imag img{
-    width: 75%;
-    height: 75%;
-}
-
 .a_propos {
     padding-left: 15%;
     padding-top: 25px;
@@ -116,7 +111,7 @@ header {
     padding-bottom: 20px;
 }
 
-.title_competence img {
+.imgs {
     width: 44px;
     height: 44px;
 }
@@ -152,11 +147,6 @@ main {
 .title {
     display: flex;
     align-items: center;
-}
-
-.title img {
-    width: 44px;
-    height: 44px;
 }
 
 .resume_projet {
@@ -204,12 +194,8 @@ footer {
 
 .Contact {
     display: flex;
+    align-items: center;
     gap: 20px;
-}
-
-.Contact img {
-    width: 50px;
-    height: 50px;
 }
 
 .Me_contact {
