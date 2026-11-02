@@ -1,0 +1,206 @@
+body {
+    padding: 10px 40px 0px 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+header {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.logo-page {
+    display: flex;
+}
+
+.logo-page img {
+    width: 44px;
+    height: 44px;
+    border: 2px solid white;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.resume {
+    max-width: 50%;
+}
+
+.domaine {
+    padding: 8px 4px 8px 4px;
+    text-align: center;
+    color: #00A99D;
+    background-color: #a6e5e0;
+    border-radius: 50px;
+    width: 40%;
+    font-size: 20px;
+}
+
+.salutation {
+    font-size: 40px;
+}
+
+.nom {
+    color: #00A99D;
+}
+
+.text {
+    font-size: 25px;
+}
+
+.apercu {
+    font-size: 15px;
+    color: silver;
+}
+
+.button {
+    border-radius: 80px;
+    color: white;
+    background-color: #00a99d;
+    padding: 8px 4px 8px 4px;
+}
+
+.definition {
+    margin-top: 50px;
+    display: flex;
+}
+
+.a_propos h1 {
+    color: #00A99D;
+}
+
+.a_propos p {
+    font-size: 15px;
+    color: silver;
+}
+
+.a_propos {
+    padding-left: 15%;
+    padding-top: 25px;
+}
+
+
+.competence {
+    background-color: #dafbf8;
+    padding-bottom: 5%;
+    border-radius: 10px;
+}
+
+.title_competence {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.title_competence img {
+    width: 44px;
+    height: 44px;
+}
+
+
+.qualites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.carte {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 16%;
+}
+
+section {
+    padding-top: 20px;
+}
+
+.Projet {
+    border: 1px solid;
+    border-style: outset;
+    border-radius: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    width: 44px;
+    height: 44px;
+}
+
+.resume_projet {
+    padding-bottom: 2%;
+    display: flex;
+}
+
+.projet {
+    display: flex;
+    gap: 30px;
+    max-width: 50%;
+}
+
+.projet img {
+    width: 50%;
+    height: 100%;
+}
+
+.nom-projet {
+    color: #00A99D;
+}
+
+.defene {
+    font-size: 14px;
+}
+
+.type_projet {
+    display: flex;
+    gap: 30px;
+}
+
+.type_projet p {
+    background-color: #5bbab2;
+    color: white;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+.Contact {
+    display: flex;
+    gap: 20px;
+}
+
+.Contact img {
+    width: 50px;
+    height: 50px;
+}
+
+.Me_contact {
+    display: flex;
+    gap: 30px;
+}
+
+.resume_contact {
+    display: flex;
+    gap: 200px;
+}

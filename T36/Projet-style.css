@@ -4,10 +4,17 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
 }
 
 header {
     padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*logo*/
@@ -19,6 +26,11 @@ header {
 .logo-page img {
     width: 44px;
     height: 44px;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
 }
 
 /*Organisateur*/
@@ -44,14 +56,12 @@ header {
 .image_projet img {
     width: 70%;
     height: 80%;
-    float: left;
     margin-left: 40%;
 }
 
 .informations {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
 }
 
 .info p {
