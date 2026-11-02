@@ -11,6 +11,8 @@ ul{
     list-style: none;
 }
 
+/*header*/
+
 header {
     display: flex;
     padding-bottom: 20px;
@@ -25,13 +27,14 @@ header {
 .logo-page img {
     width: 44px;
     height: 44px;
-    border: 2px solid white;
 }
 
 .menu {
     display: flex;
     gap: 40px;
 }
+
+/*Une vie plus sereine*/
 
 .resume {
     max-width: 50%;
@@ -71,9 +74,21 @@ header {
     padding: 8px 4px 8px 4px;
 }
 
+/*A propos*/
 .definition {
-    margin-top: 50px;
+    margin-top: 10%;
     display: flex;
+}
+
+.mon-imag img{
+    width: 75%;
+    height: 75%;
+}
+
+.a_propos {
+    padding-left: 15%;
+    padding-top: 25px;
+    max-width: 100%;
 }
 
 .a_propos h1 {
@@ -85,11 +100,8 @@ header {
     color: silver;
 }
 
-.a_propos {
-    padding-left: 15%;
-    padding-top: 25px;
-}
 
+/*Compétences & apprentissages*/
 
 .competence {
     background-color: #dafbf8;
@@ -109,7 +121,6 @@ header {
     height: 44px;
 }
 
-
 .qualites {
     display: flex;
     justify-content: center;
@@ -126,9 +137,11 @@ header {
     width: 16%;
 }
 
-section {
+main {
     padding-top: 20px;
 }
+
+/*Projet à la une*/
 
 .Projet {
     border: 1px solid;
@@ -147,14 +160,15 @@ section {
 }
 
 .resume_projet {
-    padding-bottom: 2%;
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%; 
 }
 
 .projet {
     display: flex;
     gap: 30px;
-    max-width: 50%;
+    max-width: 45%;
 }
 
 .projet img {
@@ -181,6 +195,8 @@ section {
     padding: 4px;
     border-radius: 12px;
 }
+
+/*footer*/
 
 footer {
     padding-top: 20px;
