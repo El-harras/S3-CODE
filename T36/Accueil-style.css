@@ -19,6 +19,7 @@ header {
 
 .logo-page {
     display: flex;
+    justify-content: center;
 }
 
 .logo-page img {
