@@ -7,31 +7,20 @@ a {
     text-decoration: none;
 }
 
-ul{
-    list-style: none;
-}
-
 /*header*/
 
-header {
-    display: flex;
-    padding-bottom: 20px;
-    justify-content: space-between;
+header{
+    padding-bottom: 5%;
 }
 
 .logo-page {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .logo-page img {
     width: 44px;
     height: 44px;
-}
-
-.menu {
-    display: flex;
-    gap: 40px;
 }
 
 /*Une vie plus sereine*/
