@@ -10,7 +10,7 @@ a {
 /*header*/
 
 header{
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 
 .logo-page {
@@ -142,6 +142,10 @@ main {
     color: white;
     padding: 4px;
     border-radius: 12px;
+}
+
+#spark{
+    color: orange;
 }
 
 /*footer*/
